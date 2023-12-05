@@ -1,7 +1,7 @@
-import classe_dog
+from classe_dog import Dog
 
-pastor = classe_dog.Dog ("bob",2)
-pastor.data_dog ()
+pastor = Dog ("bob",2)
+pastor.data_dog()
 pastor.sit ()
 pastor.roll_over ()
 
